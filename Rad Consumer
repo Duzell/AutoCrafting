@@ -1,0 +1,29 @@
+local ohString1 = "Radiation Engine"
+local ohNumber2 = 15
+local ohNumber3 = 15
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Virtual Diversion"
+local ohNumber2 = 6
+local ohNumber3 = 6
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Radiation Drive"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Radiation Consumer"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
