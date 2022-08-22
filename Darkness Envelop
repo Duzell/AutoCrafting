@@ -1,0 +1,57 @@
+local ohString1 = "Six"
+local ohNumber2 = 6
+
+game:GetService("ReplicatedStorage").The_WandererBuyEventItem:InvokeServer(ohString1, ohNumber2)
+
+Wait(0.02)
+
+local ohString1 = "Void Drive"
+local ohNumber2 = 15
+local ohNumber3 = 15
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Void Overdrive"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Star Consumer"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+local ohString1 = "Six"
+local ohNumber2 = 4
+
+game:GetService("ReplicatedStorage").The_WandererBuyEventItem:InvokeServer(ohString1, ohNumber2)
+
+Wait(0.02)
+
+local ohString1 = "Void Drive"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Void Overdrive"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Darkness Envelope"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
