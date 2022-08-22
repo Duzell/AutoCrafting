@@ -1,0 +1,38 @@
+
+local ohString1 = "Virtual Diversion"
+local ohNumber2 = 5
+local ohNumber3 = 5
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Void Drive"
+local ohNumber2 = 5
+local ohNumber3 = 5
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Void Overdrive"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Radiation Engine"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Cataclysm"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
