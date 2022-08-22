@@ -1,0 +1,30 @@
+
+local ohString1 = "Dragonglass Blaster"
+local ohNumber2 = 20
+local ohNumber3 = 20
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Draconic Energy Bombarder"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Radiation Engine"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Irradiated Pillars"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
