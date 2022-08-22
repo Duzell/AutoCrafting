@@ -1,0 +1,165 @@
+local ohString1 = "Gargantium Mine"
+local ohNumber2 = 50
+local ohNumber3 = 50
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "True Overlord Extractor"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Galactic Mine"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Phantom Ruby Mine"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Quad Ore Launcher"
+local ohNumber2 = 10
+local ohNumber3 = 10
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Ore Machine Gun"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Gargantium Mine"
+local ohNumber2 = 8
+local ohNumber3 = 8
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "True Overlord Extractor"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Galactic Mine"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Overlord Extractor"
+local ohNumber2 = 20
+local ohNumber3 = 20
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "True Overlord Extractor"
+local ohNumber2 = 6
+local ohNumber3 = 6
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Particle Accelerator"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Gargantium Mine"
+local ohNumber2 = 375
+local ohNumber3 = 375
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "True Overlord Extractor"
+local ohNumber2 = 75
+local ohNumber3 = 75
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Galactic Mine"
+local ohNumber2 = 75
+local ohNumber3 = 75
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Phantom Ruby Mine"
+local ohNumber2 = 75
+local ohNumber3 = 75
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Quad Ore Launcher"
+local ohNumber2 = 75
+local ohNumber3 = 75
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Ore Machine Gun"
+local ohNumber2 = 15
+local ohNumber3 = 15
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Explosive Fate"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Cosmic Hypergiant"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Celestial Centrifuge"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
