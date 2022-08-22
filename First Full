@@ -1,0 +1,145 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("AutoCrafter", "DarkTheme")
+    -- MAIN
+    local Main = Window:NewTab("Enchanted")
+    local MainSection = Main:NewSection("Enchanted")
+
+    MainSection:NewButton("Book", "Crafts Book", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/JkuAanE9'))()
+    end)
+    
+    MainSection:NewButton("Phantom", "Crafts Phantom", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/1iDcLHxA'))()
+    end)
+        
+    MainSection:NewButton("Galactic", "Crafts Galactic", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/xi6yTW7D'))()
+    end)
+        
+    MainSection:NewButton("Netherite", "Crafts Netherite", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/2eue9bSC'))()
+    end)
+        
+    local Main = Window:NewTab("Forbidden")
+    local MainSection = Main:NewSection("Forbidden")
+
+
+    MainSection:NewButton("Vaccum", "Crafts Vaccum", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/M5tPbJ7i'))()
+    end)
+
+    MainSection:NewButton("Overloaded Super Conveyor", "Crafts Speedy thing", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/BA9iCX5b'))()
+    end)
+
+    MainSection:NewButton("Primordial Core", "Crafts Primordial", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/9JGV5Tru'))()
+    end)
+
+    MainSection:NewButton("Apoc State", "Crafts Apoc", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/j4XKcPjL'))()
+    end)
+
+    MainSection:NewButton("Fifth", "Crafts Fifth", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/GQqWnyj5'))()
+    end)
+
+    MainSection:NewButton("Star Consumer", "Crafts Star Consumer", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/JjG2Z7jr'))()
+    end)
+
+    MainSection:NewButton("Demonic Blessing", "Crafts Demonic", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7nCC1J9i'))()
+    end)
+
+    MainSection:NewButton("Machine Gun", "Crafts Chine Gun", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/hdtvF3g9'))()
+    end)
+
+    MainSection:NewButton("Quad Ore", "Crafts Quad Ore", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/fhv5U09J'))()
+    end)
+
+    MainSection:NewButton("Dragonglass Temple", "Crafts Drag Temple", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/ATVcRk6t'))()
+    end)
+    
+    MainSection:NewButton("Corrupt Blossom", "Crafts Corrupt Blossom", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/0gm28JxQ'))()
+    end)
+
+    local Main = Window:NewTab("Ethereal")
+    local MainSection = Main:NewSection("Ethereal")
+
+    MainSection:NewButton("Supersonic", "Crafts SuperSonic", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/h87XyW2V'))()
+    end)
+
+    MainSection:NewButton("Void Star", "Crafts Void Star", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/9zXBwhcK'))()
+    end)
+
+    MainSection:NewButton("Hyper Conveyor", "Crafts Hyper", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/viTbLgZT'))()
+    end)
+
+    MainSection:NewButton("UltraSonic", "UltraSonic", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/UltraSonic'))()
+    end)
+
+    MainSection:NewButton("Reality", "Crafts Reality", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Reality'))()
+    end)
+
+    MainSection:NewButton("Cataclysm", "Cata", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Cata'))()
+    end)
+    
+    MainSection:NewButton("Irradiated", "Hi cutie", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Irratiated'))()
+    end)
+
+    MainSection:NewButton("Big Bang", "BANG", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Big%20Bang'))()
+    end)
+
+    MainSection:NewButton("Rad Drive", "Vroom", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Rad%20Drive'))()
+    end)
+    
+    MainSection:NewButton("Rad Consumer", "Why", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Rad%20Consumer'))()
+    end)
+    
+    MainSection:NewButton("Partical Accel", "Useful", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Part%20accel'))()
+    end)
+    
+    MainSection:NewButton("Explosive Fate", "Tank", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Explosive%20Fate'))()
+    end)
+    
+    MainSection:NewButton("Darkness Envelop", "Black", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Darkness%20Envelop'))()
+    end)
+        
+    MainSection:NewButton("Orbital Destroyer", "Beam", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Orbital%20Destroyer'))()
+    end)
+    
+    MainSection:NewButton("Star Destroyer", "Woah", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Star%20Destroyer'))()
+    end)
+    
+    MainSection:NewButton("Red Cata", "Oblit", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Cata%20Obli'))()
+    end)
+    
+    MainSection:NewButton("Celestal", "This was annoying to make", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Celestial'))()
+    end)
+        
+    MainSection:NewButton("Azure Crystal", "Yes2", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Azure%20Crystal'))()
+    end)
+
