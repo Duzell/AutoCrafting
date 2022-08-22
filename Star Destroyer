@@ -1,0 +1,14 @@
+
+local ohString1 = "Sub-Star Wrath"
+local ohNumber2 = 5
+local ohNumber3 = 5
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Star Destroyer"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
