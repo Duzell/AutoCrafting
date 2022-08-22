@@ -1,0 +1,82 @@
+local ohString1 = "Sage King"
+local ohNumber2 = 120
+local ohNumber3 = 120
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Neutron Star"
+local ohNumber2 = 60
+local ohNumber3 = 60
+
+
+local ohString1 = "The Ore Disposal"
+local ohNumber2 = 150
+local ohNumber3 = 150
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "The Ore Hauler"
+local ohNumber2 = 30
+local ohNumber3 = 30
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "The Fourth Dimension"
+local ohNumber2 = 30
+local ohNumber3 = 30
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Hades' Horn"
+local ohNumber2 = 75
+local ohNumber3 = 75
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Deadly Destroyer"
+local ohNumber2 = 30
+local ohNumber3 = 30
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Demon Horn"
+local ohNumber2 = 15
+local ohNumber3 = 15
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Apocalyptic State"
+local ohNumber2 = 15
+local ohNumber3 = 15
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Supersonic"
+local ohNumber2 = 3
+local ohNumber3 = 3
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Ultrasonic"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
