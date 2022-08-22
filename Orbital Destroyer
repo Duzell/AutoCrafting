@@ -1,0 +1,37 @@
+local ohString1 = "Angel's Blessing"
+local ohNumber2 = 18
+local ohNumber3 = 18
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Master Spark Blaster"
+local ohNumber2 = 6
+local ohNumber3 = 6
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Demonic Blessing"
+local ohNumber2 = 2
+local ohNumber3 = 2
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Hydra Blaster"
+local ohNumber2 = 12
+local ohNumber3 = 12
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
+
+Wait(0.02)
+
+local ohString1 = "Orbital Destroyer"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, ohNumber3)
