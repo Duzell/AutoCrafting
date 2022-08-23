@@ -87,6 +87,12 @@ game:GetService("ReplicatedStorage").BuyItem:InvokeServer(ohString1, ohNumber2, 
 
 Wait(0.02)
 
+local ohString1 = "Netherite Mine"
+local ohNumber2 = 1
+local ohNumber3 = 1
+
+Wait(0.02)
+
 local ohString1 = "Particle Accelerator"
 local ohNumber2 = 1
 local ohNumber3 = 1
