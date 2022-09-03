@@ -1,0 +1,296 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("MHM Script", "Serpent")
+
+     -- Function
+
+    function autorebirthlegit()
+        while _G.autorebirthlegit == true do
+            game:GetService("ReplicatedStorage").Reb_irth:InvokeServer()
+            wait(math.random(1.623,2.478))
+        end
+    end
+
+    function autorebirth()
+        while _G.autorebirth == true do
+            game:GetService("ReplicatedStorage").Reb_irth:InvokeServer()
+            wait(0.03)
+        end
+    end
+
+    function autolayout1()
+        while _G.autolayout1 == true do
+            game:GetService("HttpService"):JSONDecode(game.Players.LocalPlayer.Layouts.Layout1.Value)
+            local ohString1 = "Load"
+            local ohString2 = "Layout1"
+            game:GetService("ReplicatedStorage").Layouts:InvokeServer(ohString1, ohString2)
+            wait(math.random(0.13,0.27))
+        end
+    end
+
+    function autolayout2()
+        while _G.autolayout2 == true do
+            game:GetService("HttpService"):JSONDecode(game.Players.LocalPlayer.Layouts.Layout2.Value)
+            local ohString1 = "Load"
+            local ohString2 = "Layout2"
+            game:GetService("ReplicatedStorage").Layouts:InvokeServer(ohString1, ohString2)
+            wait(math.random(0.13,0.27))
+        end
+    end
+
+    function autolayout3()
+        while _G.autolayout3 == true do
+            game:GetService("HttpService"):JSONDecode(game.Players.LocalPlayer.Layouts.Layout3.Value)
+            local ohString1 = "Load"
+            local ohString2 = "Layout3"
+            game:GetService("ReplicatedStorage").Layouts:InvokeServer(ohString1, ohString2)
+            wait(math.random(0.13,0.27))
+        end
+    end
+
+
+    -- MAIN
+    local Main = Window:NewTab("Automation")
+    local MainSection = Main:NewSection("Automation")
+
+    MainSection:NewToggle("Rebirth Legit", "ToggleInfo", function(state)
+        if state then
+            print("Toggle On")
+            _G.autorebirthlegit = state
+            autorebirthlegit()
+        else
+            print("Toggle Off")
+            _G.autorebirthlegit = state
+            autorebirthlegit()
+        end
+    end)
+
+    MainSection:NewToggle("Rebirth Blatant", "ToggleInfo", function(state)
+        if state then
+            print("Toggle On")
+            _G.autorebirth = state
+            autorebirth()
+        else
+            print("Toggle Off")
+            _G.autorebirth = state
+            autorebirth()
+        end
+    end)
+
+    MainSection:NewToggle("Layout 1", "ToggleInfo", function(state)
+        if state then
+            print("Toggle On")
+            _G.autolayout1 = state
+            autolayout1()
+        else
+            print("Toggle Off")
+            _G.autolayout1 = state
+            autolayout1()
+        end
+    end)
+
+    MainSection:NewToggle("Layout 2", "ToggleInfo", function(state)
+        if state then
+            print("Toggle On")
+            _G.autolayout2 = state
+            autolayout2()
+        else
+            print("Toggle Off")
+            _G.autolayout2 = state
+            autolayout2()
+        end
+    end)
+
+    MainSection:NewToggle("Layout 3", "ToggleInfo", function(state)
+        if state then
+            print("Toggle On")
+            _G.autolayout3 = state
+            autolayout3()
+        else
+            print("Toggle Off")
+            _G.autolayout3 = state
+            autolayout3()
+        end
+    end)
+
+    local Main = Window:NewTab("Enchanted")
+    local MainSection = Main:NewSection("Enchanted")
+
+    MainSection:NewButton("Book", "Crafts Book", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/JkuAanE9'))()
+    end)
+    
+    MainSection:NewButton("Phantom", "Crafts Phantom", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/1iDcLHxA'))()
+    end)
+        
+    MainSection:NewButton("Galactic", "Crafts Galactic", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/xi6yTW7D'))()
+    end)
+        
+    MainSection:NewButton("Netherite", "Crafts Netherite", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/2eue9bSC'))()
+    end)
+        
+    local Main = Window:NewTab("Forbidden")
+    local MainSection = Main:NewSection("Forbidden")
+
+
+    MainSection:NewButton("Vaccum", "Crafts Vaccum", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/M5tPbJ7i'))()
+    end)
+
+    MainSection:NewButton("Overloaded Super Conveyor", "Crafts Speedy thing", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/BA9iCX5b'))()
+    end)
+
+    MainSection:NewButton("Primordial Core", "Crafts Primordial", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/9JGV5Tru'))()
+    end)
+
+    MainSection:NewButton("Apoc State", "Crafts Apoc", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/j4XKcPjL'))()
+    end)
+
+    MainSection:NewButton("Fifth", "Crafts Fifth", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/GQqWnyj5'))()
+    end)
+
+    MainSection:NewButton("Star Consumer", "Crafts Star Consumer", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/JjG2Z7jr'))()
+    end)
+
+    MainSection:NewButton("Demonic Blessing", "Crafts Demonic", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7nCC1J9i'))()
+    end)
+
+    MainSection:NewButton("Machine Gun", "Crafts Chine Gun", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/hdtvF3g9'))()
+    end)
+
+    MainSection:NewButton("Quad Ore", "Crafts Quad Ore", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/fhv5U09J'))()
+    end)
+
+    MainSection:NewButton("Dragonglass Temple", "Crafts Drag Temple", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/ATVcRk6t'))()
+    end)
+    
+    MainSection:NewButton("Corrupt Blossom", "Crafts Corrupt Blossom", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/0gm28JxQ'))()
+    end)
+
+    local Main = Window:NewTab("Ethereal")
+    local MainSection = Main:NewSection("Ethereal")
+
+    MainSection:NewButton("Supersonic", "Crafts SuperSonic", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Supersonic'))()
+    end)
+
+    MainSection:NewButton("Void Star", "Crafts Void Star", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/9zXBwhcK'))()
+    end)
+
+    MainSection:NewButton("Hyper Conveyor", "Crafts Hyper", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/viTbLgZT'))()
+    end)
+
+    MainSection:NewButton("UltraSonic", "UltraSonic", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/UltraSonic'))()
+    end)
+
+    MainSection:NewButton("Reality", "Crafts Reality", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Reality'))()
+    end)
+
+    MainSection:NewButton("Cataclysm", "Cata", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Cata'))()
+    end)
+    
+    MainSection:NewButton("Irradiated", "Hi cutie", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Irratiated'))()
+    end)
+
+    MainSection:NewButton("Big Bang", "BANG", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Big%20Bang'))()
+    end)
+
+    MainSection:NewButton("Rad Drive", "Vroom", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Rad%20Drive'))()
+    end)
+    
+    MainSection:NewButton("Rad Consumer", "Why", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Rad%20Consumer'))()
+    end)
+    
+    MainSection:NewButton("Partical Accel", "Useful", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Part%20accel'))()
+    end)
+    
+    MainSection:NewButton("Explosive Fate", "Tank", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Explosive%20Fate'))()
+    end)
+    
+    MainSection:NewButton("Darkness Envelop", "Black", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Darkness%20Envelop'))()
+    end)
+        
+    MainSection:NewButton("Orbital Destroyer", "Beam", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Orbital%20Destroyer'))()
+    end)
+    
+    MainSection:NewButton("Star Destroyer", "Woah", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Star%20Destroyer'))()
+    end)
+    
+    MainSection:NewButton("Red Cata", "Oblit", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Cata%20Obli'))()
+    end)
+    
+    MainSection:NewButton("Celestal", "This was annoying to make", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Celestial'))()
+    end)
+        
+    MainSection:NewButton("Azure Crystal", "Yes2", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/Azure%20Crystal'))()
+    end)
+
+    local Other = Window:NewTab("Player")
+    local OtherSection = Other:NewSection("Player")
+    
+    OtherSection:NewSlider("Walkspeed", "go zoom", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    OtherSection:NewSlider("Jump Power", "Jump height", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game:GetService("Players").LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+    
+    OtherSection:NewButton("Chat Spoofer", "Lets you chat for other people", function()
+        loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
+    end)
+    
+    OtherSection:NewButton("Bypassed Fly", "bird mode", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
+        Fly(true)
+    end)
+    
+    OtherSection:NewButton("Not Rocket", "Hehe cheeto", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Duzell/AutoCrafting/main/not%20rocket'))()
+    end)
+
+    OtherSection:NewButton("Dark DEX", "DEX", function()
+        loadstring(game:HttpGet('rbxassetid://418957341'))()
+    end)
+    
+    OtherSection:NewKeybind("UI Toggle Bind", "Press 9", Enum.KeyCode.Q, function()
+        Library:ToggleUI()
+    end)
+
+    
+
+
+    
+
